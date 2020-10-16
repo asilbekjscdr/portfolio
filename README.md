@@ -1,2 +1,2 @@
 # portfolio
-Shaxsiy portfolio.
+My portfolio.
