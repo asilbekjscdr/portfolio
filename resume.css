@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../Rasmlar/galaxy.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#header {
+    font-family: Montserrat;
+    background-color: #000;
+    color: #fff;
+}
+
+
+#header h1 {
+    padding: 25px 0;
+    display: inline-block;
+    color: #fff;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.navbar {
+    float: right;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar li a:hover {
+    background-color: white;
+    color: #000;
+    border-radius: 4px;
+    transition: .3s;
+}
+
+.navbar li a {
+    display: inline-block;
+    padding: 40px 10px;
+    text-decoration: none;
+    color: #606060;
+}
+
+#home {
+    color: #fff;
+}
+
+#home:hover {
+    color: #606060;
+}
+
+/* .navbar li a:hover {
+    color: orange;
+    transition: .3s;
+} */
+
+#banner {
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    height: 90vh;
+    background-image: url("../Rasmlar/galaxy.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#banner h1, p {
+    text-align: center;
+}
+
+#banner h1 {
+    padding-top: 200px;
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+
+#banner p {
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 15px;
+    border: none;
+    width: 20%;
+    border-radius: 4px;
+    font-family: Montserrat;
+    margin-left: 380px;
+}
+
+button:hover {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid white;
+    transition: .3s;
+}
+
+.footer {
+    color: #fff;
+    font-family: Montserrat;
+    margin-bottom: 40px;
+}
+/* #main {
+    background-color: #202020;
+    font-family: sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+#main h1 {
+    padding: 30px;
+} */
+
+@media (max-width: 400px) {
+    #header h1 {
+        color: #fff;
+        font-size: 25px;
+        border-bottom: 5px solid #fff;
+    }
+
+    .navbar li {
+        display: none;
+    }
+
+    #banner h1 {
+        padding-top: 160px;
+    }
+}
